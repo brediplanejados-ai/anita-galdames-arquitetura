@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-widest text-zinc-500">
-          <a href="#projetos" className="hover:text-primary transition-colors">Projetos</a>
+          <a href="#portfolio" className="hover:text-primary transition-colors">Projetos</a>
           <a href="#processo" className="hover:text-primary transition-colors">Processo</a>
           <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="bg-primary text-white px-7 py-3 rounded-full hover:bg-secondary transition-all shadow-lg shadow-primary/20">
             WHATSAPP

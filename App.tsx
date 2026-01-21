@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import BottomNav from './components/BottomNav';
+import Portfolio from './components/Portfolio';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Hero />
         <SocialProof />
         <Transformation />
+        <Portfolio />
         <Benefits />
         <Offer />
         <Testimonials />

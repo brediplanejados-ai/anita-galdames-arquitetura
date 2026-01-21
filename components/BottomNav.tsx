@@ -19,7 +19,7 @@ const BottomNav: React.FC = () => {
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 h-20 bg-softBackground/95 backdrop-blur-xl border-t border-zinc-100 flex items-center justify-around px-6 pb-4 z-50 shadow-premium">
       <NavItem icon="home" label="Início" active />
-      <NavItem icon="imagesmode" label="Projetos" href="#projetos" />
+      <NavItem icon="imagesmode" label="Projetos" href="#portfolio" />
       <NavItem icon="brand_awareness" label="WhatsApp" href="https://wa.me/5515997101903" />
       <NavItem icon="location_on" label="Onde estamos" href={googleMapsUrl} />
     </nav>
