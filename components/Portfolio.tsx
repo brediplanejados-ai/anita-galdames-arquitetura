@@ -5,11 +5,11 @@ const Portfolio: React.FC = () => {
     const portfolioImages = [
         {
             url: "https://i.ibb.co/hFvrRKGB/1.png",
-            title: "Cozinha Gourmet Sophistiquée"
+            title: "Dormitório Infantil Premium"
         },
         {
             url: "https://i.ibb.co/mVp1JFfG/2.png",
-            title: "Living Integrado e Atemporal"
+            title: "Dormitório Sophistiquée"
         }
     ];
 
