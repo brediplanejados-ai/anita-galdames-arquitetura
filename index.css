@@ -1,0 +1,15 @@
+/* Global styles for Anita Galdames Arquitetura */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff6b00;
+  --secondary: #111111;
+  --soft-background: #F7F5F2;
+}
+
+body {
+  background-color: var(--soft-background);
+  color: var(--secondary);
+}

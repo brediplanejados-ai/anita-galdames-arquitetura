@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita Galdames Arquitetura</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ff6b00',
+                        secondary: '#111111',
+                        softBackground: '#F7F5F2',
+                    },
+                    fontFamily: {
+                        sans: ['Manrope', 'sans-serif'],
+                        serif: ['Noto Serif', 'serif'],
+                    },
+                },
+                boxShadow: {
+                    'premium': '0 20px 50px -12px rgba(255, 107, 0, 0.15)',
+                    'text-lg': '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)',
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .fill-1 {
+            font-variation-settings: 'FILL' 1;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ff6b00;
+            border-radius: 10px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Borda Degradê Premium Reforçada */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .text-shadow-premium {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .text-shadow-sm {
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+
+        .premium-border {
+            position: relative;
+            background: #F7F5F2;
+            border-radius: 2.5rem;
+            display: block;
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .premium-border:hover {
+            box-shadow: 0 20px 40px -15px rgba(255, 107, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F7F5F2;
+        }
+
+        .bg-grid-pattern {
+            background-image: radial-gradient(circle, #ddd 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .arch-marker {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border: 1px solid rgba(255, 107, 0, 0.3);
+            pointer-events: none;
+        }
+
+        .arch-line {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.05);
+            pointer-events: none;
+        }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="text-zinc-900 overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>

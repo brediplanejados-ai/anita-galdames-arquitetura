@@ -1,0 +1,8 @@
+
+{
+  "name": "Anita Galdames Arquitetura",
+  "description": "Portfólio e Landing Page de arquitetura de alto padrão em Itapeva - SP.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
