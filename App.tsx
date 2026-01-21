@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import SocialProof from './components/SocialProof';
-import Transformation from './components/Transformation';
 import Benefits from './components/Benefits';
 import Offer from './components/Offer';
 import Testimonials from './components/Testimonials';
@@ -19,7 +18,6 @@ const App: React.FC = () => {
       <main className="flex-grow pb-20 md:pb-0">
         <Hero />
         <SocialProof />
-        <Transformation />
         <Portfolio />
         <Benefits />
         <Offer />
