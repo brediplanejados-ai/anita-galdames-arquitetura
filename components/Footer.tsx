@@ -28,7 +28,6 @@ const Footer: React.FC = () => {
             Arquitetura e Design de Interiores (Biofilia, Paisagismo e Iluminação) focados em ambientes funcionais, elegantes e bem-estar em Sorocaba e região.
           </p>
           <div className="flex gap-6">
-            <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white transition-colors uppercase text-[10px] font-bold tracking-widest">WhatsApp</a>
             <a href="https://www.instagram.com/_arqtime/" target="_blank" rel="noopener" className="text-zinc-400 hover:text-primary transition-colors uppercase text-[10px] font-bold tracking-widest">@_arqtime</a>
           </div>
         </div>
@@ -43,10 +42,10 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <h4 className="font-bold text-xs uppercase tracking-widest text-primary">Contato</h4>
             <div className="flex flex-col gap-4 text-zinc-400 text-sm">
-              <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-primary transition-colors">
-                <span className="material-symbols-outlined text-primary font-light">chat</span>
-                <span>(15) 99710-1903</span>
-              </a>
+              <div className="flex items-center gap-3 text-zinc-400">
+                <span className="material-symbols-outlined text-primary font-light">mail</span>
+                <span>Atendimento Online e Presencial</span>
+              </div>
             </div>
           </div>
         </div>

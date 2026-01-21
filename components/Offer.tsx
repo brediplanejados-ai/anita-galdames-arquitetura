@@ -19,8 +19,8 @@ const Offer: React.FC = () => {
           </div>
 
           <div className="pt-6">
-            <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="inline-block w-full md:w-auto bg-primary text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl hover:bg-white hover:text-primary transition-all text-center">
-              Quero meu projeto personalizado no WhatsApp
+            <a href="#contato" className="inline-block w-full md:w-auto bg-primary text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl hover:bg-white hover:text-primary transition-all text-center">
+              Quero meu projeto personalizado
             </a>
           </div>
         </div>

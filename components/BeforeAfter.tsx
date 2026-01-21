@@ -51,8 +51,8 @@ const BeforeAfter: React.FC = () => {
                         <h3 className="text-2xl font-serif font-bold text-secondary">Quer um resultado como este?</h3>
                         <p className="text-zinc-500 font-light max-w-md">Inicie seu projeto hoje e transforme cada detalhe do seu ambiente com nossa expertise em design de interiores.</p>
                     </div>
-                    <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all whitespace-nowrap">
-                        Conversar no WhatsApp
+                    <a href="#contato" className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all whitespace-nowrap">
+                        Quero uma Consultoria
                     </a>
                 </div>
             </div>

@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             Projetos de arquitetura e design de interiores personalizados para transformar cada metro quadrado em conforto, elegância e funcionalidade.
           </p>
           <div className="pt-8 flex flex-col sm:flex-row gap-5 justify-center">
-            <a href="https://wa.me/5515997101903" className="bg-primary text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/30 transition-all hover:bg-white hover:text-primary hover:scale-105 active:scale-95 text-center">
+            <a href="#contato" className="bg-primary text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/30 transition-all hover:bg-white hover:text-primary hover:scale-105 active:scale-95 text-center lowercase first-letter:uppercase">
               Solicitar orçamento personalizado
             </a>
             <a href="#portfolio" className="bg-white/5 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all shadow-lg text-center">

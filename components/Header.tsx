@@ -31,9 +31,6 @@ const Header: React.FC = () => {
           <a href="#depoimentos" className="hover:text-primary transition-colors">Depoimentos</a>
           <a href="#sobre" className="hover:text-primary transition-colors">Sobre</a>
           <a href="#contato" className="hover:text-primary transition-colors">Contato</a>
-          <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="bg-primary text-white px-7 py-3 rounded-full hover:bg-secondary transition-all shadow-lg shadow-primary/20">
-            AGENDAR CONVERSA NO WHATSAPP
-          </a>
         </div>
 
         <button className="md:hidden flex items-center justify-center h-10 w-10 rounded-full bg-secondary text-white">
