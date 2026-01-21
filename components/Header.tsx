@@ -7,12 +7,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logotipo fiel à imagem enviada */}
         <a href="#" className="flex items-center gap-3 cursor-pointer group">
-          {/* Elemento Gráfico */}
-          <div className="relative w-12 h-12 flex-shrink-0">
-            <div className="absolute top-[15%] left-0 w-full h-[2.2px] bg-primary rotate-[-20deg] origin-left"></div>
-            <div className="absolute top-[15%] left-[35%] w-[2.2px] h-[70%] bg-primary"></div>
-            <div className="absolute bottom-[15%] left-0 w-[80%] h-[50%] border-t-[2.2px] border-r-[2.2px] border-primary rounded-tr-[40px]"></div>
-          </div>
+
 
           {/* Texto do Logotipo */}
           <div className="flex flex-col leading-none">

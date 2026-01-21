@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import ValueProp from './components/ValueProp';
 import Portfolio from './components/Portfolio';
+import BeforeAfter from './components/BeforeAfter';
 import Process from './components/Process';
 import Testimonials from './components/Testimonials';
 import About from './components/About';
@@ -21,6 +22,7 @@ const App: React.FC = () => {
         <Hero />
         <ValueProp />
         <Portfolio />
+        <BeforeAfter />
         <Process />
         <Testimonials />
         <About />

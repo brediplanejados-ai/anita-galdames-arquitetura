@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
-  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Sorocaba+-+SP";
+  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Campolim,+Sorocaba+-+SP";
 
   return (
     <footer className="bg-secondary text-white pt-12 pb-24 md:pb-12 px-6">
@@ -10,11 +10,7 @@ const Footer: React.FC = () => {
         <div className="max-w-md space-y-8">
           {/* Logotipo fiel à imagem no rodapé (Versão branca/laranja) */}
           <div className="flex items-center gap-4 group">
-            <div className="relative w-14 h-14 flex-shrink-0">
-              <div className="absolute top-[15%] left-0 w-full h-[2.5px] bg-white rotate-[-20deg] origin-left"></div>
-              <div className="absolute top-[15%] left-[35%] w-[2.5px] h-[70%] bg-white"></div>
-              <div className="absolute bottom-[15%] left-0 w-[80%] h-[50%] border-t-[2.5px] border-r-[2.5px] border-white rounded-tr-[40px]"></div>
-            </div>
+
             <div className="flex flex-col leading-none">
               <span className="font-sans font-light text-3xl tracking-[0.15em] text-white uppercase -mb-1.5 text-shadow-premium">
                 SIMONE
