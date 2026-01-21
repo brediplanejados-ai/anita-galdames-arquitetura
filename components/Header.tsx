@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-zinc-100/50 px-4 py-2">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logotipo fiel à imagem enviada */}
-        <div className="flex items-center gap-3 cursor-pointer group">
+        <a href="#" className="flex items-center gap-3 cursor-pointer group">
           {/* Elemento Gráfico */}
           <div className="relative w-12 h-12 flex-shrink-0">
             <div className="absolute top-[15%] left-0 w-full h-[2.2px] bg-primary rotate-[-20deg] origin-left"></div>
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
               </span>
             </div>
           </div>
-        </div>
+        </a>
 
         <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-widest text-zinc-500">
           <a href="#portfolio" className="hover:text-primary transition-colors">Projetos</a>
