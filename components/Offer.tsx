@@ -15,7 +15,7 @@ const Offer: React.FC = () => {
 
           <div className="max-w-2xl space-y-4">
             <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-shadow-premium">Consultoria de Diagnóstico <span className="text-primary">Gratuita</span></h2>
-            <p className="text-white/60 font-light text-lg">Descubra o potencial do seu ambiente com uma análise técnica completa feita por especialistas.</p>
+            <p className="text-white/60 font-light text-lg">Descubra o potencial do seu ambiente com uma análise técnica completa feita por mim Anita Galdames.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-zinc-300">
@@ -26,7 +26,7 @@ const Offer: React.FC = () => {
               </li>
               <li className="flex items-center gap-4 text-sm md:text-base">
                 <span className="material-symbols-outlined text-secondary bg-primary rounded-full p-1 text-base font-bold">check</span>
-                Estudo de iluminação natural
+                Estudo de iluminação
               </li>
             </ul>
             <ul className="space-y-4">
