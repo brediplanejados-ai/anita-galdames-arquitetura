@@ -23,7 +23,7 @@ const TestimonialCard = ({ name, city, text, img }: { name: string, city: string
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-8 md:py-12 overflow-hidden bg-grid-pattern relative">
+    <section id="depoimentos" className="py-8 md:py-12 overflow-hidden bg-grid-pattern relative">
       <div className="arch-line top-0 left-0 w-full h-[1px] bg-zinc-200/50"></div>
       <div className="px-4 max-w-7xl mx-auto mb-12 text-center">
         <h2 className="text-3xl font-serif font-bold text-shadow-premium">O que os clientes dizem</h2>
