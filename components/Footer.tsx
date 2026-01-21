@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex gap-6">
             <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white transition-colors uppercase text-[10px] font-bold tracking-widest">WhatsApp</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener" className="text-zinc-400 hover:text-primary transition-colors uppercase text-[10px] font-bold tracking-widest">Instagram</a>
+            <a href="https://www.instagram.com/anitagaldames.arq/" target="_blank" rel="noopener" className="text-zinc-400 hover:text-primary transition-colors uppercase text-[10px] font-bold tracking-widest">@anitagaldames.arq</a>
           </div>
         </div>
 
