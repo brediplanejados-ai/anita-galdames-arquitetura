@@ -17,14 +17,14 @@ const Header: React.FC = () => {
           {/* Texto do Logotipo */}
           <div className="flex flex-col leading-none">
             <span className="font-sans font-light text-[22px] md:text-[26px] tracking-[0.15em] text-primary uppercase -mb-1 text-shadow-premium">
-              ANITA
+              SIMONE
             </span>
             <span className="font-sans font-bold text-[22px] md:text-[26px] tracking-tight text-primary uppercase text-shadow-premium">
-              GALDAMES
+              MARQUES
             </span>
             <div className="flex items-center mt-1">
               <span className="font-sans text-[9px] md:text-[11px] tracking-[0.6em] text-zinc-400 uppercase w-full">
-                ARQUITETURA
+                ARQTIME
               </span>
             </div>
           </div>

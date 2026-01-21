@@ -30,7 +30,7 @@ const Benefits: React.FC = () => {
         <BenefitCard
           icon="diamond"
           title="Luxo Acessível"
-          desc="Trazemos tendências internacionais de design adaptadas ao contexto local de Itapeva, com inteligência orçamentária."
+          desc="Trazemos tendências internacionais de design adaptadas ao contexto local de Sorocaba, com inteligência orçamentária."
         />
         <BenefitCard
           icon="draw"

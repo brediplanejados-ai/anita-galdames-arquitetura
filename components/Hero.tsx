@@ -23,10 +23,10 @@ const Hero: React.FC = () => {
 
         <div className="max-w-3xl space-y-6 relative z-10">
           <div className="inline-block px-4 py-1.5 bg-primary/10 backdrop-blur-sm border border-primary/30 rounded-full text-primary text-[10px] font-bold uppercase tracking-[0.3em] mb-4">
-            Itapeva e Região
+            Sorocaba
           </div>
           <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight text-shadow-premium">
-            Espaços que <span className="text-primary italic">inspiram</span> e funcionam para a sua vida.
+            Arquitetura pra ser <span className="text-primary italic">vivida</span>!
           </h1>
           <p className="text-white/90 text-sm md:text-lg font-light max-w-2xl mx-auto leading-relaxed text-shadow-sm">
             Projetos de arquitetura e design de interiores personalizados para transformar cada metro quadrado em conforto, elegância e funcionalidade.

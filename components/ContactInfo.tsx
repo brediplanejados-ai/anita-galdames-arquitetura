@@ -12,7 +12,7 @@ const ContactInfo: React.FC = () => {
                     <div className="space-y-6 max-w-xl text-center md:text-left">
                         <h2 className="text-3xl md:text-5xl font-serif font-bold leading-tight">
                             Atendimento em <br className="hidden md:block" />
-                            <span className="text-primaryitalic">Itapeva e região</span>
+                            <span className="text-primary italic">Sorocaba e região</span>
                         </h2>
                         <p className="text-white/60 font-light text-lg leading-relaxed">
                             Projetos presenciais e online, com acompanhamento profissional em todas as etapas.
@@ -24,7 +24,7 @@ const ContactInfo: React.FC = () => {
                             <span className="material-symbols-outlined text-primary text-3xl">location_on</span>
                             <div>
                                 <p className="text-[10px] uppercase tracking-widest text-zinc-400">Onde estamos</p>
-                                <p className="font-bold">Itapeva - SP e Região</p>
+                                <p className="font-bold">Sorocaba - SP e Região</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-4 bg-white/5 p-6 rounded-2xl border border-white/10">

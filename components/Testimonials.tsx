@@ -32,19 +32,19 @@ const Testimonials: React.FC = () => {
       <div className="flex gap-6 overflow-x-auto px-4 pb-8 no-scrollbar scroll-smooth">
         <TestimonialCard
           name="Cliente residencial"
-          city="Itapeva/SP"
-          text="A Anita conseguiu traduzir exatamente o que imaginávamos. O resultado superou nossas expectativas."
+          city="Sorocaba/SP"
+          text="A Simone conseguiu traduzir exatamente o que imaginávamos. O resultado superou nossas expectativas."
           img="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
         />
         <TestimonialCard
           name="Cliente comercial"
-          city="Itapeva/SP"
+          city="Sorocaba/SP"
           text="Projeto funcional, elegante e pensado em cada detalhe. Atendimento impecável."
           img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
         />
         <TestimonialCard
           name="Cliente residencial"
-          city="Itapeva/SP"
+          city="Sorocaba/SP"
           text="Nos sentimos seguros em todo o processo. Profissional extremamente atenciosa."
           img="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
         />
