@@ -14,32 +14,13 @@ const Offer: React.FC = () => {
           </div>
 
           <div className="max-w-2xl space-y-4">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-shadow-premium">Consultoria de Diagnóstico <span className="text-primary">Gratuita</span></h2>
-            <p className="text-white/60 font-light text-lg">Descubra o potencial do seu ambiente com uma análise técnica completa feita por mim Anita Galdames.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-zinc-300">
-            <ul className="space-y-4">
-              <li className="flex items-center gap-4 text-sm md:text-base">
-                <span className="material-symbols-outlined text-secondary bg-primary rounded-full p-1 text-base font-bold">check</span>
-                Análise de layout e circulação
-              </li>
-              <li className="flex items-center gap-4 text-sm md:text-base">
-                <span className="material-symbols-outlined text-secondary bg-primary rounded-full p-1 text-base font-bold">check</span>
-                Estudo de iluminação
-              </li>
-            </ul>
-            <ul className="space-y-4">
-              <li className="flex items-center gap-4 text-sm md:text-base">
-                <span className="material-symbols-outlined text-secondary bg-primary rounded-full p-1 text-base font-bold">check</span>
-                Consultoria de cores
-              </li>
-            </ul>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-shadow-premium">Pronta para transformar <span className="text-primary">seu espaço?</span></h2>
+            <p className="text-white/60 font-light text-lg">Dê o primeiro passo para ter um ambiente pensado exclusivamente para você.</p>
           </div>
 
           <div className="pt-6">
             <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="inline-block w-full md:w-auto bg-primary text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl hover:bg-white hover:text-primary transition-all text-center">
-              Agendar Consultoria
+              Quero meu projeto personalizado no WhatsApp
             </a>
           </div>
         </div>

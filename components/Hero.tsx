@@ -25,18 +25,18 @@ const Hero: React.FC = () => {
           <div className="inline-block px-4 py-1.5 bg-primary/10 backdrop-blur-sm border border-primary/30 rounded-full text-primary text-[10px] font-bold uppercase tracking-[0.3em] mb-4">
             Itapeva e Região
           </div>
-          <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-none text-shadow-premium">
-            Espaços que <span className="text-primary italic">Inspiram</span>.
+          <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight text-shadow-premium">
+            Espaços que <span className="text-primary italic">inspiram</span> e funcionam para a sua vida.
           </h1>
           <p className="text-white/90 text-sm md:text-lg font-light max-w-2xl mx-auto leading-relaxed text-shadow-sm">
-            Design de interiores exclusivo para quem busca <span className="text-white font-medium">sofisticação</span> e funcionalidade em cada metro quadrado.
+            Projetos de arquitetura e design de interiores personalizados para transformar cada metro quadrado em conforto, elegância e funcionalidade.
           </p>
           <div className="pt-8 flex flex-col sm:flex-row gap-5 justify-center">
             <a href="https://wa.me/5515997101903" className="bg-primary text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/30 transition-all hover:bg-white hover:text-primary hover:scale-105 active:scale-95 text-center">
-              Falar no WhatsApp
+              Solicitar orçamento personalizado
             </a>
             <a href="#portfolio" className="bg-white/5 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all shadow-lg text-center">
-              Ver Portfólio
+              Ver portfólio
             </a>
           </div>
         </div>

@@ -21,13 +21,13 @@ const Portfolio: React.FC = () => {
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-16 space-y-4">
                     <div className="inline-block px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-primary text-[10px] font-bold uppercase tracking-[0.3em]">
-                        Nosso Trabalho
+                        Nosso Portfolio
                     </div>
                     <h2 className="text-4xl md:text-5xl font-serif font-bold text-secondary">
-                        Portfólio de <span className="text-primary italic">Excelência</span>
+                        Projetos que refletem <span className="text-primary italic">estilo</span> e personalidade.
                     </h2>
                     <p className="text-zinc-500 max-w-2xl mx-auto font-light leading-relaxed text-lg">
-                        Cada projeto é uma narrativa única de estilo, conforto e funcionalidade.
+                        Ambientes residenciais e comerciais planejados para unir beleza, conforto e eficiência, sempre respeitando o perfil de cada cliente.
                     </p>
                 </div>
 
@@ -61,7 +61,7 @@ const Portfolio: React.FC = () => {
                         href="https://wa.me/5515997101903"
                         className="inline-flex items-center gap-2 text-secondary font-bold hover:text-primary transition-colors group text-lg"
                     >
-                        Quero um projeto exclusivo assim
+                        Ver projetos completos
                         <span className="material-symbols-outlined transform group-hover:translate-x-1 transition-transform">
                             arrow_right_alt
                         </span>

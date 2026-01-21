@@ -33,8 +33,11 @@ const Header: React.FC = () => {
         <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-widest text-zinc-500">
           <a href="#portfolio" className="hover:text-primary transition-colors">Projetos</a>
           <a href="#processo" className="hover:text-primary transition-colors">Processo</a>
+          <a href="#depoimentos" className="hover:text-primary transition-colors">Depoimentos</a>
+          <a href="#sobre" className="hover:text-primary transition-colors">Sobre</a>
+          <a href="#contato" className="hover:text-primary transition-colors">Contato</a>
           <a href="https://wa.me/5515997101903" target="_blank" rel="noopener noreferrer" className="bg-primary text-white px-7 py-3 rounded-full hover:bg-secondary transition-all shadow-lg shadow-primary/20">
-            WHATSAPP
+            AGENDAR CONVERSA NO WHATSAPP
           </a>
         </div>
 
